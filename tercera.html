@@ -1,92 +1,168 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Wine E-commerce Store - Product List</title>
+    <title>Domaine Bousquet</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&display=swap" rel="stylesheet">
+    <link href="css/estilo.css" rel="stylesheet" type="text/css">
+    <link href="contact.css" rel="stylesheet" type="text/css">
     <style>
-        body {
-            font-family: Arial, sans-serif;
+    body {
+            font-family: 'Montserrat', sans-serif;
+            line-height: 1.6;
+            color: #333;
             margin: 0;
             padding: 0;
         }
+
         .container {
-            width: 80%;
-            margin: 20px auto;
-            overflow: hidden;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 90%;
+            margin: 0 auto;
         }
-        .product-list {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-between;
-            margin: 20px 0;
-        }
-        .product-item {
-            width: 31%;
-            margin-bottom: 20px;
-            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
-        }
-        .product-image {
-            width: 100%;
-            height: 200px;
-            object-fit: cover;
-        }
-        .product-title {
-            padding: 10px;
-            background-color: #f2f2f2;
-        }
-        .product-actions {
-            padding: 10px;
+
+        header {
+            background-color: #493200;
+            padding: 1rem;
             text-align: center;
         }
-        button {
-            background-color: #007bff;
-            color: #fff;
-            border: none;
-            padding: 10px 20px;
-            cursor: pointer;
-            font-size: 16px;
-            transition: background-color 0.3s;
+
+        header h1 {
+            color: #FFFFFF;
+            margin: 0;
+            font-weight: 600;
         }
-        button:hover {
-            background-color: #0056b3;
+
+        nav {
+            background-color: #ddd;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        nav a {
+            color: #333;
+            text-decoration: none;
+            margin-right: 1rem;
+        }
+
+        nav a:hover {
+            color: #4CAF50;
+        }
+
+        main {
+            padding: 2rem;
+            text-align: center;
+        }
+
+        h1 {
+            margin-bottom: 1rem;
+        }
+
+        .formulario {
+            width: 40%;
+            margin: 0 auto;
+            text-align: left; /* Alinear el formulario a la izquierda */
+        }
+
+        label {
+            display: block;
+            margin-top: 10px;
+        }
+
+        input[type="text"],
+        input[type="email"] {
+            width: 25%; /* Hacer que los campos de texto ocupen todo el ancho */
+            padding: 0.5%;
+            box-sizing: border-box;
+            margin-bottom: 10px;
+        }
+
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            margin-top: 1%;
+        }
+
+        footer {
+            background-color: #000000;
+            padding: 1rem;
+            color: #fff;
+            text-align: center;
+            margin-top: 1.5rem;
         }
     </style>
 </head>
+
 <body>
     <div class="container">
-        <h1>Our Wine Selection</h1>
-        <div class="product-list">
-            <div class="product-item">
-                <img class="product-image" src="path/to/product/image1.jpg" alt="Wine 1">
-                <div class="product-title">
-                    <h2>Mermaid Small Batch Pin Gin</h2>
-                </div>
-                <div class="product-actions">
-                    <button>Add to Cart</button>
+        <header>
+            <h1><img src="images/DB Logo + Tagline-Claim_White-Blanco_ENG.png" alt="" width="483" height="111" /></h1>
+        </header>
+        <nav>
+            <a href="BODEGA.html">Home</a>
+            <a href="segunda.html">Shop Now</a>
+            <a href="tercera.html">Contact Us</a>
+        </nav>
+        <main>
+            <div class="vc_column-inner">
+                <div class="wpb_wrapper">
+                    <div class="wpb_text_column">
+                        <div class="wpb_wrapper">
+                            <p>
+                                <span style="color: #85754e;"><strong><span class="titulio">Domaine Bousquet Winery</span></strong></span><br>
+                                Phone: <a href="tel:+542622480000">+54 2622 480 000</a><br>
+                                info@domainebousquet.com<br>
+                                Route 89 S/N km 7, Tupungato ZIP 5561<br>
+                                Mendoza, Argentina
+                            </p>
+                            <p>
+                                <span style="color: #85754e;"><strong><span class="titulio">Domaine Bousquet, USA Office</span></strong></span><br>
+                                Phone: <a href="tel:+13055173310">+1 305 517 3310</a><br>
+                                4320 Monserrate Street<br>
+                                Coral Gables, FL 33146, US
+                            </p>
+                            <p>
+                                <span style="color: #85754e;"><strong><span class="titulio">Domaine Bousquet, Europe</span></strong></span><br>
+                                Phone: <a href="tel:+33689504581">+33 689 504 581</a><br>
+                                9 Rue Charles Puyo, 33300<br>
+                                Burdeos, Francia
+                            </p>
+                            <p>
+                                <strong><span class="titulio" style="color: #85754e;">Visits</span></strong><br>
+                                For booking a visit to our winery, please send an email to<br>
+                                <a href="mailto:turismo@domainebousquet.com">turismo@domainebousquet.com</a> or call<br>
+                                from abroad: <a href="tel:+5492615320896">+54 9 261 532 0896</a><br>
+                                from Argentina: <a href="tel:0261155320896">0261 15 532 0896</a>
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="product-item">
-                <img class="product-image" src="path/to/product/image2.jpg" alt="Wine 2">
-                <div class="product-title">
-                    <h2>Mermaid Small Batch Pin Gin</h2>
-                </div>
-                <div class="product-actions">
-                    <button>Add to Cart</button>
-                </div>
+            <div class="wpb_wrapper">
+                <h1>Subscribe to our newsletter</h1>
             </div>
-            <div class="product-item">
-                <img class="product-image" src="path/to/product/image3.jpg" alt="Wine 3">
-                <div class="product-title">
-                    <h2>Mermaid Small Batch Pin Gin</h2>
-                </div>
-                <div class="product-actions">
-                    <button>Add to Cart</button>
-                </div>
-            </div>
-            <!-- Add more product items here -->
-        </div>
+            <form action="/submit_form" method="post">
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="lastname">Apellido:</label>
+                <input type="text" id="lastname" name="lastname" required>
+
+                <label for="email">Correo electrónico:</label>
+                <input type="email" id="email" name="email" required>
+            </form>
+            <button type="submit">Enviar</button>
+        </main>
+        <footer>
+            &copy; 2023 Domaine Bousquet SA. All rights reserved.
+        </footer>
     </div>
 </body>
+
 </html>
