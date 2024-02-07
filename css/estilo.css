@@ -20,28 +20,41 @@ header {
 .fotos1{display:flex; align-items: center;
   justify-content: space-around;}
 
-header {
+  header {
     background-color: #493200;
-    padding: 1rem;
+    padding:1%;
+    width: 100%;
+    display: inline-block;
+    vertical-align: top; /* Alineación vertical superior */
 }
 
 header h1 {
     color: #FFFFFF;
     margin: 0;
-	font-weight: 600;
+    font-weight: 600;
 }
 
 nav {
-    background-color: #ddd;
-    padding: 1rem;
+    background-color: #d0cfcf;
+    padding: 1%;
+    width: 100%;
     text-align: center;
+    display: inline-block;
+    vertical-align: top;
 }
 
 nav a {
-    color: #333;
+    color: #000000; /* Color de texto blanco */
     text-decoration: none;
-    margin-right: 1rem;
+    padding: 5px 10px; /* Ajusta el espacio de las pestañas en la nav */
+    margin-right: 20px; /* Ajusta el margen derecho para separar más los enlaces */
+    transition: box-shadow 0.3s; /* es la transición suave al sombreado */
 }
+
+nav a.active {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.934); /* es sombra para la página activa o seleccionada para eso puse el active en el html */
+}
+
 
 main {
     padding: 2rem;
